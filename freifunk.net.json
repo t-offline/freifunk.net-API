@@ -1,6 +1,5 @@
 {
     "name": "Freifunk Altdorf", 
-    "api": "0.4.8", 
     "url": "http://freifunk-altdorf.de", 
     "techDetails": {
         "updatemode": [
@@ -28,23 +27,24 @@
             ]
         }
     }, 
-    "state": {
-        "lastchange": "2015-11-24T03:45:42.280186", 
-        "nodes": 80
-    }, 
     "contact": {
         "ml": "altdorf@freifunk.net", 
         "twitter": "@FreifunkAltdorf", 
         "email": "info@freifunk-altdorf.de"
     }, 
+    "state": {
+        "lastchange": "2015-11-24T05:18:27.948459", 
+        "nodes": 1
+    }, 
+    "api": "0.4.8", 
     "location": {
         "lat": 48.55495, 
         "city": "Altdorf", 
+        "country": "DE", 
+        "lon": 12.10783, 
         "address": {
             "Zipcode": "84032"
-        }, 
-        "lon": 12.10783, 
-        "country": "DE"
+        }
     }, 
     "nodeMaps": [
         {
@@ -52,10 +52,10 @@
             "interval": "1 minute", 
             "technicalType": "ffmap", 
             "mapType": "structural"
-        },
+        }, 
         {
-            "url": "https://data.tecff.de/nodelist.json",
-            "interval": "1 minute",
+            "url": "https://data.tecff.de/nodelist.json", 
+            "interval": "1 minute", 
             "technicalType": "nodelist"
         }
     ]
