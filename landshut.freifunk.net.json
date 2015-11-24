@@ -1,0 +1,67 @@
+{
+    "name": "Freifunk Landshut",
+    "url": "http://freifunk-landshut.de",
+    "metacommunity": "Freifunk Altdorf e.V.",
+    "techDetails": {
+        "updatemode": [
+            "manual", 
+            "autoupdate"
+        ], 
+        "firmware": {
+            "name": "gluon",
+            "url": "http://freifunk-altdorf.de/mitmachen/1.-firmware-herunterladen.php",
+            "docs": "https://github.com/tecff"
+        }, 
+        "legals": [], 
+        "routing": [
+            "batman-adv"
+        ], 
+        "networks": {
+            "ipv4": [
+                {
+                    "network": "10.120.0.0/16"
+                }
+            ], 
+            "ipv6": [
+                {
+                    "network": "fdef:ffc0:4ffa::/64"
+                }
+            ]
+        }
+    }, 
+    "state": {
+        "focus": [
+            "infrastructure/backbone", 
+            "Public Free Wifi", 
+            "Social Community Building"
+        ],
+        "lastchange": "2015-11-24T05:46:58.041566",
+        "nodes": 82
+    }, 
+    "contact": {
+        "ml": "altdorf@freifunk.net", 
+        "twitter": "@FreifunkAltdorf", 
+        "email": "info@freifunk-altdorf.de",
+		"phone": "+498719357070"
+    }, 
+    "location": {
+        "lat": 48.5147849720974, 
+        "lon": 12.0767211914062,
+        "country": "DE",
+        "city": "Landshut"
+    }, 
+    "nodeMaps": [
+        {
+            "url": "https://map.tecff.de/", 
+            "interval": "1 minute", 
+            "technicalType": "ffmap", 
+            "mapType": "geographical"
+        }, 
+        {
+            "url": "https://data.tecff.de/nodelist.json", 
+            "interval": "1 minute", 
+            "technicalType": "nodelist"
+        }
+    ],
+    "api": "0.4.9"
+}
