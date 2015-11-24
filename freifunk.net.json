@@ -1,14 +1,14 @@
 {
-    "name": "Freifunk M\u00fcnchen", 
+    "name": "Freifunk Altdorf", 
     "api": "0.4.8", 
-    "url": "http://www.freifunk-muenchen.de", 
+    "url": "http://freifunk-altdorf.de", 
     "techDetails": {
         "updatemode": [
             "manual", 
             "autoupdate"
         ], 
         "firmware": {
-            "url": "http://freifunk-muenchen.de/firmware", 
+            "url": "http://freifunk-altdorf.de/mitmachen/1.-firmware-herunterladen.php", 
             "name": "gluon"
         }, 
         "legals": [], 
@@ -18,62 +18,45 @@
         "networks": {
             "ipv4": [
                 {
-                    "network": "10.80.0.0/16"
+                    "network": "10.120.0.0/16"
                 }
             ], 
             "ipv6": [
                 {
-                    "network": "fdef:ffc0:4fff::/64"
+                    "network": "fdef:ffc0:4ffa::/64"
                 }
             ]
         }
     }, 
     "state": {
-        "lastchange": "2015-10-04T20:32:42.280186", 
-        "nodes": 1000
+        "lastchange": "2015-11-24T03:45:42.280186", 
+        "nodes": 80
     }, 
     "contact": {
-        "ml": "muenchen@freifunk.net", 
-        "twitter": "@FreifunkMUC", 
-        "irc": "ircs://irc.darkfasel.net/#freifunk", 
-        "email": "muenchen@freifunk.net"
+        "ml": "altdorf@freifunk.net", 
+        "twitter": "@FreifunkAltdorf", 
+        "email": "info@freifunk-altdorf.de"
     }, 
     "location": {
-        "lat": 48.1536, 
-        "city": "M\u00fcnchen", 
+        "lat": 48.55495, 
+        "city": "Altdorf", 
         "address": {
-            "Street": "Schlei\u00dfheimer Str. 41", 
-            "Name": "muCCC", 
-            "Zipcode": "80797"
+            "Zipcode": "84032"
         }, 
-        "lon": 11.5607, 
+        "lon": 12.10783, 
         "country": "DE"
     }, 
     "nodeMaps": [
         {
-            "url": "https://ffmuc.net/map/", 
+            "url": "https://map.tecff.de/", 
             "interval": "1 minute", 
             "technicalType": "ffmap", 
             "mapType": "structural"
         },
         {
-            "url": "https://ffmuc.net/data/nodelist.json",
+            "url": "https://data.tecff.de/nodelist.json",
             "interval": "1 minute",
             "technicalType": "nodelist"
-        }
-    ],
-    "feeds": [
-        {
-            "name": "ffmuc-blog",
-            "category": "blog",
-            "type": "xml",
-            "url": "https://ffmuc.net/feed.xml"
-        },
-        {
-            "name": "Freifunk München Podcast",
-            "category": "podcast",
-            "type": "xml",
-            "url": "https://ffmuc.net/podcast/mp3.xml"
         }
     ]
 }

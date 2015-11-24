@@ -2,7 +2,7 @@
 from datetime import datetime
 from requests import get as rget
 
-NODESJSON = 'http://map.freifunk-muenchen.de/nodes.json'
+NODESJSON = 'https://data.tecff.de/nodes.json'
 
 def scrape(url):
     '''returns remote json'''
