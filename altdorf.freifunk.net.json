@@ -1,6 +1,5 @@
 {
-    "name": "Freifunk Altdorf", 
-    "api": "0.4.8", 
+    "name": "Freifunk Altdorf e.V.",
     "url": "http://freifunk-altdorf.de", 
     "techDetails": {
         "updatemode": [
@@ -8,8 +7,9 @@
             "autoupdate"
         ], 
         "firmware": {
-            "url": "http://freifunk-altdorf.de/mitmachen/1.-firmware-herunterladen.php", 
-            "name": "gluon"
+            "name": "gluon",
+            "url": "http://freifunk-altdorf.de/mitmachen/1.-firmware-herunterladen.php",
+            "docs": "https://github.com/tecff"
         }, 
         "legals": [], 
         "routing": [
@@ -29,34 +29,41 @@
         }
     }, 
     "state": {
-        "lastchange": "2015-11-24T05:27:58.041566", 
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Social Community Building"
+        ],
+        "lastchange": "2015-11-24T05:40:58.041566",
         "nodes": 82
     }, 
     "contact": {
         "ml": "altdorf@freifunk.net", 
         "twitter": "@FreifunkAltdorf", 
-        "email": "info@freifunk-altdorf.de"
+        "email": "info@freifunk-altdorf.de",
+		"phone": "+498719357070"
     }, 
     "location": {
-        "lat": 48.55495, 
+        "lat": 48.5625,
+        "lon": 12.0793,
+        "country": "DE",
         "city": "Altdorf", 
         "address": {
             "Zipcode": "84032"
-        }, 
-        "lon": 12.10783, 
-        "country": "DE"
+        }
     }, 
     "nodeMaps": [
         {
             "url": "https://map.tecff.de/", 
             "interval": "1 minute", 
             "technicalType": "ffmap", 
-            "mapType": "structural"
+            "mapType": "geographical"
         }, 
         {
             "url": "https://data.tecff.de/nodelist.json", 
             "interval": "1 minute", 
             "technicalType": "nodelist"
         }
-    ]
+    ],
+    "api": "0.4.9"
 }

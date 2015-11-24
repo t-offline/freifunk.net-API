@@ -5,7 +5,7 @@ from json import dumps
 import re
 from datetime import datetime
 
-json_data = open('freifunk.net.json')
+json_data = open('altdorf.freifunk.net.json')
 data = json.load(json_data)
 json_data.close()
 
@@ -22,7 +22,7 @@ print data["state"]["lastchange"]
 print data["state"]["nodes"]
 
 try:
-  with open('freifunk.net.json', 'w') as fn:
+  with open('altdorf.freifunk.net.json', 'w') as fn:
     fn.write(dumps(data, indent=4))
     fn.close()
 except Exception as ex:
