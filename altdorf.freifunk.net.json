@@ -1,5 +1,6 @@
 {
     "name": "Freifunk Altdorf e.V.",
+    "api": "0.4.9",
     "url": "http://freifunk-altdorf.de",
     "techDetails": {
         "updatemode": [
@@ -7,9 +8,9 @@
             "autoupdate"
         ],
         "firmware": {
-            "name": "gluon",
             "url": "http://freifunk-altdorf.de/mitmachen/1.-firmware-herunterladen.php",
             "docs": "https://github.com/tecff",
+            "name": "gluon",
             "vpnaccess": "automatic"
         },
         "legals": [
@@ -34,29 +35,29 @@
         }
     },
     "state": {
+        "lastchange": "2016-08-02T17:23:23.406479",
+        "nodes": 278,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
             "Social Community Building"
-        ],
-        "lastchange": "2016-02-17T02:50:58.041566",
-        "nodes": 150
+        ]
     },
     "contact": {
         "ml": "altdorf@freifunk.net",
         "twitter": "@FreifunkAltdorf",
         "facebook": "https://www.facebook.com/freifunka",
         "email": "info@freifunk-altdorf.de",
-		"phone": "+4987120540155"
+        "phone": "+4987120540155"
     },
     "location": {
         "lat": 48.5625,
-        "lon": 12.0793,
         "country": "DE",
-        "city": "Altdorf",
         "address": {
             "Zipcode": "84032"
-        }
+        },
+        "lon": 12.0793,
+        "city": "Altdorf"
     },
     "nodeMaps": [
         {
@@ -70,6 +71,5 @@
             "interval": "1 minute",
             "technicalType": "nodelist"
         }
-    ],
-    "api": "0.4.9"
+    ]
 }
