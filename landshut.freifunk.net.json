@@ -4,15 +4,15 @@
     "metacommunity": "Freifunk Altdorf e.V.",
     "techDetails": {
         "updatemode": [
-            "manual", 
+            "manual",
             "autoupdate"
-        ], 
+        ],
         "firmware": {
             "name": "gluon",
             "url": "http://freifunk-altdorf.de/mitmachen/1.-firmware-herunterladen.php",
             "docs": "https://github.com/tecff",
             "vpnaccess": "automatic"
-        }, 
+        },
         "legals": [
             "vpnnationals",
             "institutions"
@@ -20,52 +20,52 @@
         "routing": [
             "802.11s",
             "batman-adv"
-        ], 
+        ],
         "networks": {
             "ipv4": [
                 {
                     "network": "10.120.0.0/16"
                 }
-            ], 
+            ],
             "ipv6": [
                 {
                     "network": "fdef:ffc0:4ffa::/64"
                 }
             ]
         }
-    }, 
+    },
     "state": {
         "focus": [
-            "infrastructure/backbone", 
-            "Public Free Wifi", 
+            "infrastructure/backbone",
+            "Public Free Wifi",
             "Social Community Building"
         ],
         "lastchange": "2016-02-17T02:50:58.041566",
         "nodes": 150
-    }, 
+    },
     "contact": {
-        "ml": "altdorf@freifunk.net", 
+        "ml": "altdorf@freifunk.net",
         "twitter": "@FreifunkAltdorf",
         "facebook": "https://www.facebook.com/freifunka",
         "email": "info@freifunk-altdorf.de",
 		"phone": "+4987120540155"
-    }, 
+    },
     "location": {
-        "lat": 48.5147849720974, 
+        "lat": 48.5147849720974,
         "lon": 12.0767211914062,
         "country": "DE",
         "city": "Landshut"
-    }, 
+    },
     "nodeMaps": [
         {
-            "url": "https://map.tecff.de/", 
-            "interval": "1 minute", 
-            "technicalType": "ffmap", 
+            "url": "https://map.tecff.de/",
+            "interval": "1 minute",
+            "technicalType": "ffmap",
             "mapType": "geographical"
-        }, 
+        },
         {
-            "url": "https://data.tecff.de/nodelist.json", 
-            "interval": "1 minute", 
+            "url": "https://data.tecff.de/nodelist.json",
+            "interval": "1 minute",
             "technicalType": "nodelist"
         }
     ],
