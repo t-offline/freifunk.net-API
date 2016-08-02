@@ -10,10 +10,15 @@
         "firmware": {
             "name": "gluon",
             "url": "http://freifunk-altdorf.de/mitmachen/1.-firmware-herunterladen.php",
-            "docs": "https://github.com/tecff"
+            "docs": "https://github.com/tecff",
+            "vpnaccess": "automatic"
         }, 
-        "legals": [], 
+        "legals": [
+            "vpnnationals",
+            "institutions"
+        ],
         "routing": [
+            "802.11s",
             "batman-adv"
         ], 
         "networks": {
@@ -40,9 +45,10 @@
     }, 
     "contact": {
         "ml": "altdorf@freifunk.net", 
-        "twitter": "@FreifunkAltdorf", 
+        "twitter": "@FreifunkAltdorf",
+        "facebook": "https://www.facebook.com/freifunka",
         "email": "info@freifunk-altdorf.de",
-		"phone": "+498719357070"
+		"phone": "+4987120540155"
     }, 
     "location": {
         "lat": 48.5147849720974, 
