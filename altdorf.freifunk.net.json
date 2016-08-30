@@ -1,6 +1,5 @@
 {
     "name": "Freifunk Altdorf e.V.",
-    "api": "0.4.9",
     "url": "http://freifunk-altdorf.de",
     "techDetails": {
         "updatemode": [
@@ -34,15 +33,6 @@
             ]
         }
     },
-    "state": {
-        "lastchange": "2016-08-02T17:23:23.406479",
-        "nodes": 278,
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Social Community Building"
-        ]
-    },
     "contact": {
         "ml": "altdorf@freifunk.net",
         "twitter": "@FreifunkAltdorf",
@@ -50,14 +40,24 @@
         "email": "info@freifunk-altdorf.de",
         "phone": "+4987120540155"
     },
+    "state": {
+        "lastchange": "2016-08-30T21:15:32.729699",
+        "nodes": 304,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Social Community Building"
+        ]
+    },
+    "api": "0.4.9",
     "location": {
         "lat": 48.5625,
         "country": "DE",
+        "lon": 12.0793,
+        "city": "Altdorf",
         "address": {
             "Zipcode": "84032"
-        },
-        "lon": 12.0793,
-        "city": "Altdorf"
+        }
     },
     "nodeMaps": [
         {

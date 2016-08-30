@@ -1,6 +1,5 @@
 {
     "name": "Freifunk Landshut",
-    "api": "0.4.9",
     "url": "http://freifunk-landshut.de",
     "techDetails": {
         "updatemode": [
@@ -34,15 +33,6 @@
             ]
         }
     },
-    "state": {
-        "lastchange": "2016-08-02T17:23:23.407055",
-        "nodes": 278,
-        "focus": [
-            "infrastructure/backbone",
-            "Public Free Wifi",
-            "Social Community Building"
-        ]
-    },
     "contact": {
         "ml": "altdorf@freifunk.net",
         "twitter": "@FreifunkAltdorf",
@@ -50,6 +40,16 @@
         "email": "info@freifunk-altdorf.de",
         "phone": "+4987120540155"
     },
+    "state": {
+        "lastchange": "2016-08-30T21:15:32.731181",
+        "nodes": 304,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Social Community Building"
+        ]
+    },
+    "api": "0.4.9",
     "location": {
         "lat": 48.5147849720974,
         "country": "DE",
