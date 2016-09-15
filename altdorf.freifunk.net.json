@@ -67,7 +67,7 @@
             "mapType": "geographical"
         },
         {
-            "url": "https://data.tecff.de/nodelist.json",
+            "url": "https://map.tecff.de/hopglass-server/mv1/nodelist.json",
             "interval": "1 minute",
             "technicalType": "nodelist"
         }
